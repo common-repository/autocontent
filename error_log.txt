@@ -1,0 +1,6 @@
+[2024-09-24 21:30:46] Post successfully created with ID 1016
+[2024-10-01 15:25:19] API request error: {"error":"Unauthorized isValidActivationKey"}
+[2024-10-08 14:40:06] API request error: {"error":"Unauthorized isValidActivationKey"}
+[2024-10-15 14:48:19] API request error: {"error":"Unauthorized isValidActivationKey"}
+[2024-10-21 22:41:59] manual
+[2024-10-21 22:41:59] API request error: {"error":"Unauthorized doesUserHaveEnoughCredits"}

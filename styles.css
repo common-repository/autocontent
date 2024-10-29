@@ -1,0 +1,89 @@
+/* styles.css */
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tab {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #0073e6; /* Blue background color */
+    color: #fff; /* White text color */
+    border: 1px solid #ccc;
+}
+
+.tab-content {
+    display: none;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999; /* Ensure it's on top of other elements */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background with opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Adjust width if necessary */
+    max-width: 600px; /* Ensure it doesn't get too wide */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Optional: add a shadow for better visibility */
+    position: relative;
+    z-index: 10000; /* Ensure content is above the background overlay */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Adjust the width of form text boxes */
+form.table-form-table input[type="text"],
+form.table-form-table input[type="email"],
+form.table-form-table textarea {
+    width: 100%;
+    max-width: 500px; /* Set your desired maximum width */
+}
+
+/* Settings saved notice style */
+.autocontent-banner .notice:not(.edds-admin-notice) {
+    position: absolute !important;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+/* Processing Gif position */
+#processingContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
